@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color:#161619;
+    height:1048px;
+    width:100vw;
+}
+
+.background {
+    height: 769px;
+    width: 100vw;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text
+{
+    color: white;
+    position: relative;
+    top: 53px;
+    left: 313px;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.name
+{
+    font-size: 45px;
+    text-decoration: solid;}
+.goal
+{   
+    height:279px;
+    color: white;
+    position: relative;
+    top: 85px;
+    left: 250px;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.goal span
+{
+    color: red;
+    font-size: 80px;
+}
+/* Body Css */
+main{
+    height: 100vh;
+}
+.container1
+{
+    width: 1066px;
+    height:450px;
+    /* background: aqua; */
+    margin: 100px;
+    display: flex;
+    gap: 53px;
+    
+}
+.box{
+    width:320px;
+    height:450px;
+    background-color: azure;
+
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+
+}
+
+.background1{
+    background-image: url(./images/web.png);
+    width:320px;
+    height: 192px;
+    background-repeat: no-repeat;
+    
+}
+
+.detail
+{
+    color: orange;
+    font-size: 30px;
+    text-decoration: strong;
+    margin: 15px 10px;
+
+}
+
+
+.background2
+{
+    background-image: url(./images/app.png);
+    background-repeat: no-repeat;
+     width:320px;
+    height: 192px;
+    background-position: center;
+}
+
+
+.background3
+{
+      background-image: url(./images/uiux.png);
+    background-repeat: no-repeat;
+     width:320px;
+    height: 192px;
+    background-position: center;
+    
+}
+
+.text1{
+    color: black;
+    font-size: 25px;
+}
+.text2{
+    color: black;
+    font-size: 25px;
+}
+.text3{
+    color: black;
+    font-size: 25px;
+}
+
+/* footer  */
+
+.info
+{
+    height: 300px;
+    width:100vw;
+    display: flex;
+    font-size: 20px;
+    font-family:;
+}
+.contact
+{
+    width:50vw;
+    background: blueviolet;
+    text-align: center;
+   
+}
+.about
+{
+    width:50vw;
+    background: hotpink;
+    text-align: center;
+
+}
