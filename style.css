@@ -125,23 +125,27 @@ main{
 
 .info
 {
-    height: 300px;
+    height: 200px;
     width:100vw;
     display: flex;
     font-size: 20px;
-    font-family:;
+    color: whitesmoke;
 }
 .contact
 {
     width:50vw;
-    background: blueviolet;
+    background: black;
     text-align: center;
+    padding-top: 20px;
    
 }
 .about
 {
+        padding-top: 20px;
+
     width:50vw;
-    background: hotpink;
+    background: black;
     text-align: center;
+    border-left: 1px solid white;
 
 }
